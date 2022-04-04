@@ -55,6 +55,7 @@ function App(){
     };
     return(
         <div>
+            <p>Ram is a boy</p>
             <NewExpense onAddExpense = {addExpenseHandler}/>
             <Expenses item={expenses} />
         </div>
